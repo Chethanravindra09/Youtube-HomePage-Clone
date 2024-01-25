@@ -1,5 +1,6 @@
 .thumbnail{
   width: 100%;
+
 }
 
 .video-grid{
@@ -45,4 +46,22 @@
 
 .video-stats{
   margin-bottom: 10px;
+}
+
+.thumbnail-row{
+  position: relative;
+}
+.time{
+  position: absolute;
+  bottom:0;
+  right: 0;
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+  margin-right: 3px;
+  font-size: 12px;
+  font-family: Roboto, Arial, serif;
+  font-weight: 500;
+  padding: 2px 4px;
+  border-radius: 2px;
 }

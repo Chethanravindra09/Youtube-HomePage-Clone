@@ -1,0 +1,117 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(248,248,248);
+}
+
+.middle-section{
+    flex:1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+
+.search-button{
+    height: 37px;
+    width: 60px;
+    background-color: rgb(240,240,240);
+    border-width: 1px;
+    border-style: solid;
+    border-bottom: rgb(192,192,192);
+    margin-left: -1px;
+    margin-right: 8px;
+    border-radius: 2px;
+}
+
+.search-icon{
+    width: 25px;
+    margin-top: 4px;
+    height: 25px;
+}
+.voice-search-icon{
+    height: 24px;
+    margin-top: 4px;
+}
+.voice-search-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #f8f5f5;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.right-section{
+    display: flex;
+    align-items: center;
+width: 180px;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.upload-icon{
+    height: 24px;
+    width: 30px;
+}
+.youtube-apps-icon{
+    height: 24px;
+    width:30px;
+
+}
+
+.notifications-icon{
+    height: 24px;
+    width: 30px;
+}
+
+.profile-pic{
+    height: 34px;
+
+    border-radius: 50%;
+    object-fit: contain;
+    object-position: center;
+}
+.hamburger-menu{
+    height: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.youtube-logo{
+    height: 20px;
+
+}
+.search-bar{
+    flex: 1;
+    height: 34px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0 , 0 , 0 ,0.05);
+    width: 0;
+}
+
+.search-bar::placeholder{
+    background-color: transparent;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+}
