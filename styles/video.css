@@ -10,6 +10,22 @@
   row-gap: 20px;
 }
 
+@media (max-width:750px ) {
+  .video-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 751px) and (min-width:1300px ) {
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width:1300px ) {
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
 
 .video-stats{
   display: block;
